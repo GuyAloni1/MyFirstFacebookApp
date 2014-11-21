@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop Facebook", "A15 EX00 Guy 200412211 Ran 222222222\Desktop Facebook.csproj", "{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
