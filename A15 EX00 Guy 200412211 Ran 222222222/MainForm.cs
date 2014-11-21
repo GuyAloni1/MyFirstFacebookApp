@@ -40,11 +40,20 @@ namespace Desktop_Facebook
         private void InitVideoList()
         {
             List<Post> listOfVideoPosts = FacebookServices.GetAllVideosInNewsFeed();
-            InitImageListOfVideos(listOfVideoPosts);
-            CreateListViewItemsFromPosts(listOfVideoPosts);
-            AddVideosToThePlayList(listOfVideoPosts);
 
-            m_playList.Play(1);
+            if (listOfVideoPosts.Count > 0)
+            {
+                InitImageListOfVideos(listOfVideoPosts);
+                CreateListViewItemsFromPosts(listOfVideoPosts);
+                AddVideosToThePlayList(listOfVideoPosts);
+
+                m_playList.Play(1);
+            }
+            else
+            {
+                MessageBox.Show("There are no video posts in your news feed right now");
+                DisableButtons();
+            }
         }
 
         private void AddVideosToThePlayList(List<Post> list)
