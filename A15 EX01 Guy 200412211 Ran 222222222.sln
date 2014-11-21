@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop Facebook", "A15 EX00 Guy 200412211 Ran 222222222\Desktop Facebook.csproj", "{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop Facebook", "A15 EX01 Guy 200412211 Ran 222222222\Desktop Facebook.csproj", "{A9EB229C-5F42-40A3-AA1B-33F9EB106B70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
